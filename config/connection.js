@@ -2,10 +2,10 @@ var mysql = require("mysql");
 
 if(process.env.JAWSDB_URL) {
   //Heroku deployment
-    connection = mysql.createConnection(process.env.JAWSDB_URL);
+    var connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   //local host
-    connection = mysql.createConnection({
+    var connection = mysql.createConnection({
         root: 8889,
         host: "localhost",
         user: "root",
