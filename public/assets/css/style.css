@@ -1,7 +1,23 @@
+
+  html{
+    background: lemonchiffon
+  }
+
+h1 {
+  background: rebeccapurple;
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  color: rebeccapurple;
+  background: red;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: turquoise;
 }
 
 .label {
